@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+
+#navbar {
+  gap: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
