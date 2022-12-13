@@ -19,7 +19,7 @@ function Header() {
             Projects
             </Nav.Item>
             <Nav.Item>
-            Contacts
+            Contact
             </Nav.Item>
                 </Nav>
         </header>

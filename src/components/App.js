@@ -1,12 +1,15 @@
 import Header from "./Header/Header";
 import "../styles/App.css";
+import { BrowserRouter as Router, Routes, Route, useNavigate, Link, BrowserRouter, Switch, useLocation } from "react-router-dom";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-     <h1>My Portfolio</h1>
-    </div>
+   <Routes>
+    
+   </Routes>
   );
 }
 
