@@ -1,15 +1,18 @@
-import Header from "./Header/Header";
+// import Header from "../Header/Header";
 
 
 
-function homepage() {
+function Homepage() {
 
 
     return (
         <main>
-        <Header />
+        {/* <Header /> */}
         <div>Homepage</div>
         </main>
     )
 
 }
+
+
+export default Homepage;
