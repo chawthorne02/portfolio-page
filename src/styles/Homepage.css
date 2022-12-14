@@ -1,2 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
 
+.homepage-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-top: 8%;
+  font-size: 7rem;
+}
+
+.homepage-subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
