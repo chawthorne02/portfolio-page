@@ -1,30 +1,29 @@
-import Nav from 'react-bootstrap/Nav';
+import Nav from "react-bootstrap/Nav";
 import "../../styles/Header.css";
 import { Link } from "react-router-dom";
 
-
 function Header() {
-    return (
-        <header>
-            <Nav className="justify-content-center" id="navbar" activeKey="/home">
-            <Nav.Item>
-            <Link to='/'>Home</Link>
-            </Nav.Item>
-            <Nav.Item>
-            <Link to="about">About</Link>
-            </Nav.Item>
-            <Nav.Item>
-            <Link to="resume">Resume</Link>
-            </Nav.Item>
-            <Nav.Item>
-            <Link to="projects">Projects</Link>
-            </Nav.Item>
-            <Nav.Item>
-            <Link to="contact">Contact</Link>
-            </Nav.Item>
-                </Nav>
-        </header>
-    )
+  return (
+    <header>
+      <Nav className="justify-content-center" id="navbar" activeKey="/home">
+        <Nav.Item className="navlink">
+          <Link to="/">Home</Link>
+        </Nav.Item>
+        <Nav.Item className="navlink">
+          <Link to="about">About</Link>
+        </Nav.Item>
+        <Nav.Item className="navlink">
+          <Link to="resume">Resume</Link>
+        </Nav.Item>
+        <Nav.Item className="navlink">
+          <Link to="projects">Projects</Link>
+        </Nav.Item>
+        <Nav.Item className="navlink">
+          <Link to="contact">Contact</Link>
+        </Nav.Item>
+      </Nav>
+    </header>
+  );
 }
 
-export default Header; 
+export default Header;

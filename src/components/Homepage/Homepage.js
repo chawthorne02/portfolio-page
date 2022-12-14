@@ -1,18 +1,7 @@
 // import Header from "../Header/Header";
 
-
-
 function Homepage() {
-
-
-    return (
-        <main>
-        {/* <Header /> */}
-        <div>Homepage</div>
-        </main>
-    )
-
+  return <div className="portfolio-title">Homepage</div>;
 }
-
 
 export default Homepage;
