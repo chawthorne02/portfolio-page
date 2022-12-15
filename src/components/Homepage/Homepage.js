@@ -22,7 +22,7 @@ function Homepage() {
         >
           <BsLinkedin />
         </a>
-        <a href="chawthorne02@gmail.com">
+        <a href="mailto: chawthorne02@gmail.com">
           <MdEmail />
         </a>
       </section>

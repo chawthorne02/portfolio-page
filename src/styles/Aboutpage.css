@@ -1,0 +1,13 @@
+.carousel {
+  display: flex;
+  width: 50%;
+  margin-left: 10px;
+ 
+}
+
+.about-img {
+  width: 100%;
+  height: 850px;
+  object-fit: cover;
+
+}
