@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Card from "react-bootstrap/Card";
-import betterMindsApp from "../../images/bettermindsapp.jpeg";
-import turnBase from "../../images/Turn-Base-Game.jpeg";
-import pixelPerfect from "../../images/pixel-perfect.jpeg";
-import newspaperapp from "../../images/newspaperapp.jpeg";
+import "../../styles/Projectspage.css";
+
 
 const INITIAL_PROJECTS = [
   {
@@ -13,7 +11,7 @@ const INITIAL_PROJECTS = [
       "Created a tutoring app that users are able to find and connect with a certified tutor for a personalized learning plan. Once the user is connected with the tutor of their choosing, the tutor can leave notes for students about lessons, keep track of student progression, and also assign the students lessons all from within the app. Students can also leave messages for the tutor on lessons allowing for smooth communication throughout the learning process.",
     language:
       "HTML, CSS, React, Django, Django Rest FrameWork, SendGrid Email Api, Pillow, React-Bootsrap",
-      image: {betterMindsApp},
+    image: require("../../images/bettermindsapp.jpeg"),
   },
   {
     id: 2,
@@ -21,8 +19,7 @@ const INITIAL_PROJECTS = [
     description:
       "Created a turn based battle game with a group. If you're thinking of what type of turn-based game, think of old-school Pokemon game battle scenarios. In the group, I was in charge of the styling and the animation that when a player took damage their card would flash.",
     language: "HTML, CSS, JavaScript",
-    image: {turnBase},
-    
+    image: require("../../images/Turn-Base-Game.jpeg"),
   },
   {
     id: 3,
@@ -30,7 +27,7 @@ const INITIAL_PROJECTS = [
     description:
       "Created a newspaper app that had different permissions for each user; non authenticated user, authenticated user, and the admin. ",
     language: "HTML, CSS, React, Django, Django Rest FrameWork, React-Bootsrap",
-    image: {newspaperapp},
+    image: require("../../images/newspaperapp.jpeg"),
   },
   {
     id: 4,
@@ -38,14 +35,33 @@ const INITIAL_PROJECTS = [
     description:
       "Created a  HTML page based  off of an image file that was given.  Also making the site a pixel perfect match according to the desktop image.",
     language: "HTML, CSS",
-    image: {pixelPerfect},
+    image: require("../../images/pixel-perfect.jpeg"),
   },
 ];
 
 function Projectspage() {
   const [projects, setProjects] = useState(INITIAL_PROJECTS);
 
-  return <div>This is the projects page</div>;
+  const projectsList = projects.map((project) => {
+    return (
+      <li key={project.id} className="project-list">
+        <Card className="card">
+          <Card.Img
+            className="projects-img"
+            variant="top"
+            src={project.image}
+          />
+          <Card.Body className="card-body">
+            <Card.Title>{project.name}</Card.Title>
+            <p>{project.description}</p>
+            <li className="languages">{project.language}</li>
+          </Card.Body>
+        </Card>
+      </li>
+    );
+  });
+
+  return <ul className="project-cards">{projectsList}</ul>;
 }
 
 export default Projectspage;

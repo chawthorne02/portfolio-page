@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
+
+.project-cards {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  width: 40%;
+  border: solid 2px #000;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
