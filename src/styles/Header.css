@@ -18,3 +18,16 @@ a:hover {
   text-decoration: underline;
   margin-right: 1rem;
 }
+
+.header-button {
+  font-size: 20px;
+}
+
+.resume-link {
+  color: #000;
+}
+
+.resume-link:hover {
+  text-decoration: none;
+  margin-right: 0px;
+}

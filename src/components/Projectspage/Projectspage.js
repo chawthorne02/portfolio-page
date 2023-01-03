@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Card from "react-bootstrap/Card";
 import "../../styles/Projectspage.css";
-
+import betterminds from "../../images/bettermindsapp.jpeg";
+import turnBase from "../../images/Turn-Base-Game.jpeg";
+import newspaper from "../../images/newspaperapp.jpeg";
+import pixelPerfect from "../../images/pixel-perfect.jpeg";
 
 const INITIAL_PROJECTS = [
   {
@@ -45,6 +48,7 @@ function Projectspage() {
   const projectsList = projects.map((project) => {
     return (
       <li key={project.id} className="project-list">
+        <h2 className="project-title">{project.name}</h2>
         <Card className="card">
           <Card.Img
             className="projects-img"
