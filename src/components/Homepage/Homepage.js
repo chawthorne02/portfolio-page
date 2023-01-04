@@ -2,8 +2,9 @@ import "../../styles/Homepage.css";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import Spinner from "react-bootstrap/Spinner";
 
-function Homepage() {
+function Homepage({ loading }) {
   return (
     <div className="homepage">
       <section className="homepage-title">Corey Hawthorne</section>

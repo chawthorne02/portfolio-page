@@ -15,18 +15,18 @@ function Header() {
           <Link to="about">About</Link>
         </Nav.Item>
         <Nav.Item className="navlink">
+          <Link to="projects">Projects</Link>
+        </Nav.Item>
+        <Nav.Item className="navlink">
           <Button variant="light" className="header-button">
             <a href={resume} target="_blank" className="resume-link">
               Resume
             </a>
           </Button>
         </Nav.Item>
-        <Nav.Item className="navlink">
-          <Link to="projects">Projects</Link>
-        </Nav.Item>
-        <Nav.Item className="navlink">
+        {/* <Nav.Item className="navlink">
           <Link to="contact">Contact</Link>
-        </Nav.Item>
+        </Nav.Item> */}
       </Nav>
     </header>
   );

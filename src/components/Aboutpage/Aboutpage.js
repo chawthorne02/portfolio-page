@@ -5,7 +5,7 @@ import graduationpic from "../../images/graduationpic.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 import "../../styles/Aboutpage.css";
 
-function Aboutpage() {
+function Aboutpage({ loading }) {
   return (
     <div className="about-page">
       <Carousel className="carousel">
