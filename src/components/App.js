@@ -36,7 +36,7 @@ function App() {
           <Header />
         </nav>
 
-        <AnimatedRoutes />
+        <AnimatedRoutes /> 
       </Router>
     </div>
   );

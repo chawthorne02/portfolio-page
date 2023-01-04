@@ -5,6 +5,7 @@ import betterminds from "../../images/bettermindsapp.jpeg";
 import turnBase from "../../images/Turn-Base-Game.jpeg";
 import newspaper from "../../images/newspaperapp.jpeg";
 import pixelPerfect from "../../images/pixel-perfect.jpeg";
+import { motion } from "framer-motion";
 
 const INITIAL_PROJECTS = [
   {
@@ -65,7 +66,15 @@ function Projectspage() {
     );
   });
 
-  return <ul className="project-cards">{projectsList}</ul>;
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <ul className="project-cards">{projectsList}</ul>
+    </motion.div>
+  );
 }
 
 export default Projectspage;

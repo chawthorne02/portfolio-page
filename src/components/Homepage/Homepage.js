@@ -3,10 +3,17 @@ import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import Spinner from "react-bootstrap/Spinner";
+import { motion } from "framer-motion";
 
 function Homepage({ loading }) {
   return (
-    <div className="homepage">
+    <motion.div
+      className="homepage"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      // exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+    >
       <section className="homepage-title">Corey Hawthorne</section>
       <p className="homepage-subtitle">
         Software Developer looking to further improve my skills and further
@@ -27,7 +34,7 @@ function Homepage({ loading }) {
           <MdEmail />
         </a>
       </section>
-    </div>
+    </motion.div>
   );
 }
 

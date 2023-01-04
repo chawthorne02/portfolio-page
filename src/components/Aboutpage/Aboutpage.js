@@ -4,10 +4,17 @@ import skydive from "../../images/skydive.jpeg";
 import graduationpic from "../../images/graduationpic.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 import "../../styles/Aboutpage.css";
+import { motion } from "framer-motion";
 
 function Aboutpage({ loading }) {
   return (
-    <div className="about-page">
+    <motion.div
+      className="about-page"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      // exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+    >
       <Carousel className="carousel">
         <Carousel.Item>
           <img className="about-img" src={Me} alt="First slide" />
@@ -44,7 +51,7 @@ function Aboutpage({ loading }) {
         knowledge even further. Now that I have graduated, I am excited to
         continue that learning process and see where it takes me.
       </p>
-    </div>
+    </motion.div>
   );
 }
 
