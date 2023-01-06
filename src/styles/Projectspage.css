@@ -40,3 +40,20 @@
   background: var(--red);
   transform-origin: 0%;
 } */
+
+@media (max-width: 768px) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .project-title {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
