@@ -5,7 +5,7 @@ import betterminds from "../../images/bettermindsapp.jpeg";
 import turnBase from "../../images/Turn-Base-Game.jpeg";
 import newspaper from "../../images/newspaperapp.jpeg";
 import pixelPerfect from "../../images/pixel-perfect.jpeg";
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 const INITIAL_PROJECTS = [
   {
@@ -45,6 +45,7 @@ const INITIAL_PROJECTS = [
 
 function Projectspage() {
   const [projects, setProjects] = useState(INITIAL_PROJECTS);
+  const { scrollYProgress } = useScroll();
 
   const projectsList = projects.map((project) => {
     return (
