@@ -18,6 +18,7 @@ import Aboutpage from "./Aboutpage/Aboutpage";
 import { useState, useEffect } from "react";
 import Spinner from "react-bootstrap/Spinner";
 import AnimatedRoutes from "./AnimatedRoutes/AnimatedRoutes";
+import Burger from "./Burger/Burger";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -34,9 +35,10 @@ function App() {
       <Router>
         <nav>
           <Header />
+          <Burger />
         </nav>
 
-        <AnimatedRoutes /> 
+        <AnimatedRoutes />
       </Router>
     </div>
   );

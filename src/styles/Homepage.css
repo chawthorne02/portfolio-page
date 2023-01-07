@@ -36,3 +36,30 @@ svg {
   height: 50px;
   width: 50px;
 }
+
+@media (max-width: 768px) {
+  .homepage-title {
+    font-size: 5rem;
+    margin-top: 4%;
+  }
+
+  .homepage-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .homepage-title {
+    font-size: 35px;
+  }
+
+  .homepage-subtitle {
+    font-size: 9px;
+    padding-bottom: 20px;
+  }
+
+  svg {
+    height: 30px;
+    width: 40px;
+  }
+}

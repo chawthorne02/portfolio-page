@@ -3,6 +3,7 @@ import "../../styles/Header.css";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import resume from "../../images/resume.pdf";
+import Burger from "../Burger/Burger";
 
 function Header() {
   return (
