@@ -19,9 +19,11 @@ import { useState, useEffect } from "react";
 import Spinner from "react-bootstrap/Spinner";
 import AnimatedRoutes from "./AnimatedRoutes/AnimatedRoutes";
 import Burger from "./Burger/Burger";
+import Menu from "./Menu/Menu";
 
 function App() {
   const [loading, setLoading] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -34,8 +36,8 @@ function App() {
     <div className="App">
       <Router>
         <nav>
-          <Header />
-          <Burger />
+          <Header open={open} setOpen={setOpen}/>
+          <Menu open={open} setOpen={setOpen} />
         </nav>
 
         <AnimatedRoutes />

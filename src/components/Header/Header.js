@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import resume from "../../images/resume.pdf";
 import Burger from "../Burger/Burger";
+import { useState } from "react";
 
-function Header() {
+function Header({open, setOpen}) {
+  
   return (
     <header>
       <Nav className="justify-content-center" id="navbar" activeKey="/home">
+        <Burger open={open} setOpen={setOpen}/>
         <Nav.Item className="navlink">
           <Link to="/">Home</Link>
         </Nav.Item>

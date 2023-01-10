@@ -1,15 +1,14 @@
-import { StyledBurger } from './Burger.styled';
+import { StyledBurger } from "./Burger.styled";
 
-
-function Burger() {
-    return (
-        <StyledBurger>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </StyledBurger>
-    )
+function Burger({ open, setOpen }) {
+  return (
+    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </StyledBurger>
+  );
 }
 
 export default Burger;
