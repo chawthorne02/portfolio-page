@@ -58,6 +58,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .project-title {
+    margin-right: 36px;
+  }
+}
+
 @media (max-width: 320px) {
   .project-title {
     font-size: 20px;

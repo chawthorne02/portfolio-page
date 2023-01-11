@@ -48,19 +48,13 @@ svg {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 414px) {
   .homepage-title {
-    font-size: 35px;
-    margin-top: 50%;
+    font-size: 4rem;
+    margin-top: 28%;
   }
 
-  /* .homepage-subtitle {
-    font-size: 9px;
-    padding-bottom: 20px;
+  .homepage-subtitle {
+    font-weight: 1000;
   }
-
-  svg {
-    height: 30px;
-    width: 40px;
-  }  */
 }
