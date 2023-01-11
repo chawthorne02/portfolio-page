@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-page/static/css/main.4d1f4bd1.css",
+    "main.js": "/portfolio-page/static/js/main.a2cdb6ab.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-page/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bettermindsapp.jpeg": "/portfolio-page/static/media/bettermindsapp.e6d8d05c59a53d956750.jpeg",
+    "static/media/graduationpic.jpeg": "/portfolio-page/static/media/graduationpic.b892741685f29419161e.jpeg",
+    "static/media/newspaperapp.jpeg": "/portfolio-page/static/media/newspaperapp.755733b0f0ad9438d409.jpeg",
+    "static/media/pixel-perfect.jpeg": "/portfolio-page/static/media/pixel-perfect.b0e1418c3f04435354a8.jpeg",
+    "static/media/Teacherme.jpeg": "/portfolio-page/static/media/Teacherme.b583a444f9f601802164.jpeg",
+    "static/media/Me.jpg": "/portfolio-page/static/media/Me.044448579a5ea1d46e4b.jpg",
+    "static/media/Turn-Base-Game.jpeg": "/portfolio-page/static/media/Turn-Base-Game.e61b23806b74cebf1240.jpeg",
+    "static/media/skydive.jpeg": "/portfolio-page/static/media/skydive.1e508aa91943333a889e.jpeg",
+    "static/media/resume.pdf": "/portfolio-page/static/media/resume.465e5e26fe0313aedfc7.pdf",
+    "static/media/keyboard.jpg": "/portfolio-page/static/media/keyboard.edc71369d98d122aec21.jpg",
+    "index.html": "/portfolio-page/index.html",
+    "main.4d1f4bd1.css.map": "/portfolio-page/static/css/main.4d1f4bd1.css.map",
+    "main.a2cdb6ab.js.map": "/portfolio-page/static/js/main.a2cdb6ab.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-page/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d1f4bd1.css",
+    "static/js/main.a2cdb6ab.js"
+  ]
+}
