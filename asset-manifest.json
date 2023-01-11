@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.cedcc9a4.css",
+    "main.css": "/portfolio-page/static/css/main.e387e90c.css",
     "main.js": "/portfolio-page/static/js/main.2793bcd6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-page/static/js/787.1ed0c42c.chunk.js",
     "static/media/bettermindsapp.jpeg": "/portfolio-page/static/media/bettermindsapp.e6d8d05c59a53d956750.jpeg",
@@ -14,12 +14,12 @@
     "static/media/resume.pdf": "/portfolio-page/static/media/resume.465e5e26fe0313aedfc7.pdf",
     "static/media/keyboard.jpg": "/portfolio-page/static/media/keyboard.edc71369d98d122aec21.jpg",
     "index.html": "/portfolio-page/index.html",
-    "main.cedcc9a4.css.map": "/portfolio-page/static/css/main.cedcc9a4.css.map",
+    "main.e387e90c.css.map": "/portfolio-page/static/css/main.e387e90c.css.map",
     "main.2793bcd6.js.map": "/portfolio-page/static/js/main.2793bcd6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-page/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cedcc9a4.css",
+    "static/css/main.e387e90c.css",
     "static/js/main.2793bcd6.js"
   ]
 }
