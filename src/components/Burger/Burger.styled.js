@@ -21,6 +21,10 @@ export const StyledBurger = styled.button`
     outline: none;
   }
 
+  @media (max-width: 390px) {
+    right: 42%;
+  }
+
   div {
     width: 2rem;
     height: 0.25rem;

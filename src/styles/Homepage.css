@@ -48,12 +48,13 @@ svg {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .homepage-title {
     font-size: 35px;
+    margin-top: 50%;
   }
 
-  .homepage-subtitle {
+  /* .homepage-subtitle {
     font-size: 9px;
     padding-bottom: 20px;
   }
@@ -61,5 +62,5 @@ svg {
   svg {
     height: 30px;
     width: 40px;
-  }
+  }  */
 }
