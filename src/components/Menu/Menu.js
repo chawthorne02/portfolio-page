@@ -5,13 +5,15 @@ import Projectspage from "../Projectspage/Projectspage";
 import resume from "../../images/resume.pdf";
 import { Link } from "react-router-dom";
 
-function Menu({open}) {
+function Menu({ open }) {
   return (
     <StyledMenu open={open}>
-      <a href={<Homepage />}>Home</a>
-      <a href={<Aboutpage />}>About</a>
-      <a href={<Projectspage />}>Projects</a>
-      <a href={resume}>Resume</a>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/projects">Projects</Link>
+      <a href={resume} target="_blank">
+        Resume
+      </a>
     </StyledMenu>
   );
 }

@@ -12,7 +12,7 @@ function Header({open, setOpen}) {
     <header>
       <Nav className="justify-content-center" id="navbar" activeKey="/home">
         <Burger open={open} setOpen={setOpen}/>
-        <Nav.Item className="navlink">
+        {/* <Nav.Item className="navlink">
           <Link to="/">Home</Link>
         </Nav.Item>
         <Nav.Item className="navlink">
@@ -27,7 +27,7 @@ function Header({open, setOpen}) {
               Resume
             </a>
           </Button>
-        </Nav.Item>
+        </Nav.Item> */}
         {/* <Nav.Item className="navlink">
           <Link to="contact">Contact</Link>
         </Nav.Item> */}

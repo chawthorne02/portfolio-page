@@ -7,6 +7,7 @@ export const StyledMenu = styled.nav`
   background: ${({ theme }) => theme.primaryLight};
   background-color: #000;
   height: 100vh;
+  z-index: 10;
   text-align: left;
   padding: 2rem;
   position: absolute;

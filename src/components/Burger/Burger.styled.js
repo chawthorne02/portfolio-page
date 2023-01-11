@@ -4,7 +4,7 @@ export const StyledBurger = styled.button`
   position: relative;
   top: 5%;
   // left: 2rem;
-  right: 30%;
+  right: 47%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -14,7 +14,7 @@ export const StyledBurger = styled.button`
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
+  z-index: 11;
   margin-top: 4px;
 
   &:focus {

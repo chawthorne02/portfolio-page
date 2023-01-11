@@ -32,3 +32,9 @@ a:hover {
   text-decoration: none;
   margin-right: 0px;
 }
+
+@media (max-width: 320px) {
+  .nav-item {
+    display: none;
+  }
+}

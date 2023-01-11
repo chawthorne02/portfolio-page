@@ -15,15 +15,17 @@ import Projectspage from "./Projectspage/Projectspage";
 import Resumepage from "./Resumepage/Resumepage";
 import Contactpage from "./Contactpage/Contactpage";
 import Aboutpage from "./Aboutpage/Aboutpage";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Spinner from "react-bootstrap/Spinner";
 import AnimatedRoutes from "./AnimatedRoutes/AnimatedRoutes";
 import Burger from "./Burger/Burger";
+import useOnClickOutside from "./Hooks/Hooks";
 import Menu from "./Menu/Menu";
 
 function App() {
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
+  const node = useRef();
 
   useEffect(() => {
     setLoading(true);
@@ -32,11 +34,12 @@ function App() {
     }, 2000);
   }, []);
 
+  useOnClickOutside(node, () => setOpen(false));
   return (
     <div className="App">
       <Router>
-        <nav>
-          <Header open={open} setOpen={setOpen}/>
+        <nav ref={node}>
+          <Header open={open} setOpen={setOpen} />
           <Menu open={open} setOpen={setOpen} />
         </nav>
 
