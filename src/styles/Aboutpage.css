@@ -82,6 +82,10 @@
 
 @media (max-width: 414px) {
   .about-img {
-    height: 0%;
+    height: auto;
+  }
+
+  .about-text {
+    font-weight: bold;
   }
 }
