@@ -11,6 +11,7 @@
   margin-left: 20px;
   margin-top: 20px;
   border: solid 2px #000;
+  box-shadow: 10px 5px 5px #000;
 }
 
 .about-text {
@@ -26,6 +27,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 1px #000;
+  height: 50%;
+  margin-top: 11%;
+  padding: 28px;
+  background-color: #000;
+  border-radius: 7%;
 }
 
 .about-img {
