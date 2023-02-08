@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import Spinner from "react-bootstrap/Spinner";
 import { motion } from "framer-motion";
 
-function Homepage({ loading }) {
+function Homepage() {
   return (
     <motion.div
       className="homepage"
