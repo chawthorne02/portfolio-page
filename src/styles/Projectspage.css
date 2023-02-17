@@ -32,6 +32,11 @@
   margin-left: 150px;
 }
 
+.project-link {
+  color: #000;
+  margin-left: 90%;
+}
+
 /* .progress-bar {
   position: fixed;
   top: 0;

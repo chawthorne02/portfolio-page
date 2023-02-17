@@ -56,9 +56,6 @@ function Projectspage() {
     return (
       <li key={project.id} className="project-list">
         <h2 className="project-title">{project.name}</h2>
-        <a href={project.link} target="_blank">
-          <BsGithub />
-        </a>
         <Card className="card">
           <Card.Img
             className="projects-img"
@@ -69,6 +66,9 @@ function Projectspage() {
             <Card.Title>{project.name}</Card.Title>
             <p>{project.description}</p>
             <li className="languages">{project.language}</li>
+            <a href={project.link} target="_blank" className="project-link">
+              <BsGithub />
+            </a>
           </Card.Body>
         </Card>
       </li>
