@@ -6,6 +6,7 @@ import turnBase from "../../images/Turn-Base-Game.jpeg";
 import newspaper from "../../images/newspaperapp.jpeg";
 import pixelPerfect from "../../images/pixel-perfect.jpeg";
 import { motion, useScroll } from "framer-motion";
+import { BsGithub } from "react-icons/bs";
 
 const INITIAL_PROJECTS = [
   {
@@ -16,6 +17,7 @@ const INITIAL_PROJECTS = [
     language:
       "HTML, CSS, React, Django, Django Rest FrameWork, SendGrid Email Api, Pillow, React-Bootsrap",
     image: require("../../images/bettermindsapp.jpeg"),
+    link: "https://github.com/chawthorne02/ccs-final-project",
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ const INITIAL_PROJECTS = [
       "Created a turn based battle game with a group. If you're thinking of what type of turn-based game, think of old-school Pokemon game battle scenarios. In the group, I was in charge of the styling and the animation that when a player took damage their card would flash.",
     language: "HTML, CSS, JavaScript",
     image: require("../../images/Turn-Base-Game.jpeg"),
+    link: "https://github.com/chawthorne02/Turn-Based-Game",
   },
   {
     id: 3,
@@ -32,6 +35,7 @@ const INITIAL_PROJECTS = [
       "Created a newspaper app that had different permissions for each user; non authenticated user, authenticated user, and the admin. ",
     language: "HTML, CSS, React, Django, Django Rest FrameWork, React-Bootsrap",
     image: require("../../images/newspaperapp.jpeg"),
+    link: "https://github.com/chawthorne02/django_newspaper_app",
   },
   {
     id: 4,
@@ -40,6 +44,7 @@ const INITIAL_PROJECTS = [
       "Created a  HTML page based  off of an image file that was given.  Also making the site a pixel perfect match according to the desktop image.",
     language: "HTML, CSS",
     image: require("../../images/pixel-perfect.jpeg"),
+    link: "https://github.com/chawthorne02/Pixel-Perfect",
   },
 ];
 
@@ -51,6 +56,9 @@ function Projectspage() {
     return (
       <li key={project.id} className="project-list">
         <h2 className="project-title">{project.name}</h2>
+        <a href={project.link} target="_blank">
+          <BsGithub />
+        </a>
         <Card className="card">
           <Card.Img
             className="projects-img"
