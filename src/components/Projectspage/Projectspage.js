@@ -66,9 +66,12 @@ function Projectspage() {
             <Card.Title>{project.name}</Card.Title>
             <p>{project.description}</p>
             <li className="languages">{project.language}</li>
-            <a href={project.link} target="_blank" className="project-link">
-              <BsGithub />
-            </a>
+            <section className="bottom-card">
+              <a href={project.link} target="_blank" className="project-link">
+                Click here to view the project -->
+                <BsGithub />
+              </a>
+            </section>
           </Card.Body>
         </Card>
       </li>

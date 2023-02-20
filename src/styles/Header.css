@@ -17,7 +17,7 @@ a {
 
 a:hover {
   color: rgb(6, 92, 121);
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 
 .header-button {

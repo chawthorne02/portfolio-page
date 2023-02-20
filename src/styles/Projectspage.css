@@ -47,6 +47,10 @@
   transform-origin: 0%;
 } */
 
+.link-click {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .project-list {
     display: flex;
